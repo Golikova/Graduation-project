@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eab09b99-6c2c-4240-8ca4-f029b8941041" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="eab09b99-6c2c-4240-8ca4-f029b8941041" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/parser.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chrome_extencion/GoogleNewsParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chrome_extencion/Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chrome_extencion/Searcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/articles.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagecode.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagecode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagecode.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chrome_extencion/GoogleSearchScaper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chrome_extencion/GoogleSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chrome_extencion/MappingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chrome_extencion/MappingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chrome_extencion/VKParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chrome_extencion/VKNewsParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chrome_extencion/WebPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chrome_extencion/WebPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/parser.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/parser.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chrome_extencion/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chrome_extencion/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chrome_extencion/FileWriterCustom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chrome_extencion/FileWriterCustom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chrome_extencion/GoogleSearchScapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chrome_extencion/MappingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chrome_extencion/MappingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chrome_extencion/VKParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chrome_extencion/WebPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chrome_extencion/WebPage.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,76 +34,16 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chrome_extencion/MappingController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chrome_extencion/VKParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="95" column="23" lean-forward="true" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chrome_extencion/GoogleSearchScaper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/GreetingController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/WebPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/GoogleSearch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/MappingController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/FileWriter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/FileWriterCustom.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/VKParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chrome_extencion/MappingController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chrome_extencion/GoogleSearchScapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chrome_extencion/GoogleSearchScaper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chrome_extencion/VKParser.java" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -91,82 +52,28 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1366" />
-    <option name="height" value="572" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="parser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chrome_extencion" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1WhXESOdVukrR0YmFvaGKpiRtgi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Документы/parser" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -223,6 +130,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -243,193 +162,112 @@
       <workItem from="1574322686892" duration="11630000" />
       <workItem from="1574695494074" duration="5110000" />
       <workItem from="1574760996933" duration="2962000" />
+      <workItem from="1575622052359" duration="640000" />
+      <workItem from="1576139439338" duration="594000" />
+      <workItem from="1578905892995" duration="55000" />
+      <workItem from="1579602698171" duration="841000" />
+      <workItem from="1579604329037" duration="35000" />
+      <workItem from="1579968675943" duration="10955000" />
+      <workItem from="1580041527623" duration="2717000" />
+      <workItem from="1580147728707" duration="4991000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45697000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1368" height="743" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2839879" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924472" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.89803624" weight="0.17694806" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.10196374" side_tool="true" weight="0.6055195" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49848944" weight="0.32954547" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Greeting.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/chrome_extencion/WebPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chrome_extencion/GoogleSearch.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/chrome_extencion/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chrome_extencion/FileWriterCustom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chrome_extencion/GoogleSearchScaper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chrome_extencion/MappingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chrome_extencion/VKParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="95" column="23" lean-forward="true" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>parser</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="768" y="224" width="376" height="598" key="#com.intellij.ide.util.MemberChooser" timestamp="1580149753596">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="768" y="224" width="376" height="598" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580149753596" />
+    <state x="807" y="412" width="298" height="222" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579970572646">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="807" y="412" width="298" height="222" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579970572646" />
+    <state x="539" y="181" width="826" height="690" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1579970568911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="181" width="826" height="690" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579970568911" />
+    <state x="675" y="243" width="562" height="560" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1580109838494">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="675" y="243" width="562" height="560" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580109838494" />
+    <state x="440" y="0" width="1023" height="1040" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579979928053">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="0" width="1023" height="1040" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579979928053" />
+    <state x="735" y="284" width="426" height="490" key="FileChooserDialogImpl" timestamp="1579970565768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="735" y="284" width="426" height="490" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579970565768" />
+    <state width="1878" height="265" key="GridCell.Tab.0.bottom" timestamp="1580152667293">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580152667293" />
+    <state width="1878" height="265" key="GridCell.Tab.0.center" timestamp="1580152667293">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="265" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580152667293" />
+    <state width="1878" height="265" key="GridCell.Tab.0.left" timestamp="1580152667290">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="265" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580152667290" />
+    <state width="1878" height="265" key="GridCell.Tab.0.right" timestamp="1580152667293">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="265" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580152667293" />
+    <state width="1878" height="265" key="GridCell.Tab.1.bottom" timestamp="1580152667294">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="265" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580152667294" />
+    <state width="1878" height="265" key="GridCell.Tab.1.center" timestamp="1580152667293">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="265" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580152667293" />
+    <state width="1878" height="265" key="GridCell.Tab.1.left" timestamp="1580152667293">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="265" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580152667293" />
+    <state width="1878" height="265" key="GridCell.Tab.1.right" timestamp="1580152667294">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="265" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580152667294" />
+    <state width="1878" height="338" key="GridCell.Tab.2.bottom" timestamp="1580151740978">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="338" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580151740978" />
+    <state width="1878" height="338" key="GridCell.Tab.2.center" timestamp="1580151740978">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="338" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580151740978" />
+    <state width="1878" height="338" key="GridCell.Tab.2.left" timestamp="1580151740978">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="338" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580151740978" />
+    <state width="1878" height="338" key="GridCell.Tab.2.right" timestamp="1580151740978">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="338" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580151740978" />
+    <state x="493" y="178" width="926" height="690" key="Maven.ArtifactSearchDialog" timestamp="1579974117802">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="493" y="178" width="926" height="690" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579974117802" />
+    <state x="456" y="155" width="1007" height="736" key="SettingsEditor" timestamp="1579602974606">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="456" y="155" width="1007" height="736" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579602974606" />
+    <state x="639" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1580147728383">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="639" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580147728383" />
+    <state x="624" y="153" width="664" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579973764842">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="624" y="153" width="664" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579973764842" />
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1579971163019">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579971163019" />
   </component>
 </project>

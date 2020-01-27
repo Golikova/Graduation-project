@@ -5,12 +5,12 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class VKParser {
+public class VKNewsParser implements  Parser{
 
     private static String regex = "(?=(<div class=\"wall_post_text\">))";
     private static int oppeningDivLength = (regex.length()-6);
 
-    public static ArrayList<String> getArticles(WebPage page) {
+    public ArrayList<String> getArticles(WebPage page) {
 
         ArrayList<String> articlesArray = new ArrayList<>();
         List<Integer> positions = getArticlesPositions(page);
@@ -39,7 +39,7 @@ public class VKParser {
         return  articlesArray;
     }
 
-    public static ArrayList<Integer> getArticlesPositions(WebPage page) {
+    public ArrayList<Integer> getArticlesPositions(WebPage page) {
 
         Matcher m = Pattern.compile(regex).matcher(page.getCode());
         ArrayList<Integer> positions = new ArrayList<>();
@@ -50,7 +50,7 @@ public class VKParser {
         return positions;
     }
 
-    private static void writeArticlesToFile(ArrayList<String> articlesArray) {
+    private void writeArticlesToFile(ArrayList<String> articlesArray) {
         FileWriterCustom fileWriter = new FileWriterCustom("");
         for (String article:
              articlesArray) {
@@ -59,7 +59,7 @@ public class VKParser {
         }
     }
 
-    private static ArrayList<String> cleanHTMLTags (ArrayList<String> articlesArray) {
+    public ArrayList<String> cleanHTMLTags (ArrayList<String> articlesArray) {
         ArrayList<String> cleanArticlesArray = new ArrayList<>();
         for (String article:
              articlesArray) {

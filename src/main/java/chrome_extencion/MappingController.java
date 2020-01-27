@@ -1,49 +1,40 @@
 package chrome_extencion;
 
+import org.json.JSONException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.xml.sax.SAXException;
 
+import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
-import java.util.*;
+import java.util.ArrayList;
 
 @RestController
 public class MappingController {
 
     @RequestMapping(value = "/greeting", method = RequestMethod.POST,  consumes= MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<WebPage> getPage(@RequestBody WebPage webPage) {
+    public ResponseEntity<WebPage> getPage(@RequestBody WebPage webPage) throws IOException, SAXException, ParserConfigurationException, JSONException {
 
         FileWriterCustom webPageWriter = new FileWriterCustom(webPage.getCode());
-        try {
-            webPageWriter.writeFileOutputStream("pagecode.html");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        webPageWriter.writeFileOutputStream("pagecode.html");
 
-        VKParser  vkParser = new VKParser();
-        ArrayList<String> articles =  vkParser.getArticles(webPage);
-        ArrayList<Integer> positions = vkParser.getArticlesPositions(webPage);
+        System.out.println("Got request!");
 
-        Map<Integer, HashMap<String,String>> positionTextLinkMap = new
-                HashMap<Integer, HashMap<String,String>>();
+        GoogleNewsParser googleParser = new GoogleNewsParser();
+        googleParser.getArticles(webPage);
+        ArrayList<String> newsTitles = googleParser.getNewsTitles();
 
-        int index = 0;
-        for (String article:
-             articles) {
-            positionTextLinkMap.put(positions.get(index), GoogleSearchScaper.getSearchResults(articles.get(index)));
-            index++;
-        }
-        for (HashMap.Entry<Integer, HashMap<String, String>> entry:
-            positionTextLinkMap.entrySet()) {
-            System.out.println("ПОЗИЦИЯ: " + entry.getKey());
-            for (HashMap.Entry<String,String> textLinkMap:
-                 entry.getValue().entrySet()) {
-                System.out.println("Ссылка: " + textLinkMap.getValue());
-                System.out.println("Описание: " + textLinkMap.getKey());
-            }
-        }
+        //Searcher.getSource(newsTitles.get(0));
 
-        return new ResponseEntity<WebPage>(webPage, HttpStatus.OK);
+        WebPage nullPage = new WebPage();
+        nullPage.setCode("");
+
+        return new ResponseEntity<WebPage>(nullPage, HttpStatus.OK);
+
     }
+
+
+
 }
