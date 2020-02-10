@@ -9,6 +9,7 @@ import java.util.ArrayList;
 public interface Parser {
 
     ArrayList<String> getArticles(WebPage page) throws ParserConfigurationException, SAXException, IOException;
-    WebPage appendIntoHtml (WebPage webPage, int position, String text);
+    public ArrayList<String> getNewsTitles();
+    WebPage appendIntoHtml (ArrayList<Source> newsSources, WebPage webPage) throws ParserConfigurationException, SAXException, IOException;
 
 }

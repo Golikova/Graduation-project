@@ -1,5 +1,9 @@
 package chrome_extencion;
 
+import org.xml.sax.SAXException;
+
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -37,6 +41,16 @@ public class VKNewsParser implements  Parser{
         articlesArray = cleanHTMLTags(articlesArray);
         writeArticlesToFile(articlesArray);
         return  articlesArray;
+    }
+
+    @Override
+    public ArrayList<String> getNewsTitles() {
+        return null;
+    }
+
+    @Override
+    public WebPage appendIntoHtml(ArrayList<Source> newsSources, WebPage webPage) throws ParserConfigurationException, SAXException, IOException {
+        return null;
     }
 
     public ArrayList<Integer> getArticlesPositions(WebPage page) {

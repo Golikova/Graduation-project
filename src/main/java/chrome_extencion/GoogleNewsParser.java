@@ -40,7 +40,22 @@ public class GoogleNewsParser implements Parser {
 
 
     @Override
-    public WebPage appendIntoHtml(WebPage webPage, int position, String text) {
-        return null;
+    public WebPage appendIntoHtml(ArrayList<Source> newsSources, WebPage webPage) throws ParserConfigurationException, SAXException, IOException {
+
+        Document document = webPage.getDocument();
+        Elements newsSet = document.getElementsByClass("g");
+
+        int i = 0;
+        for (Element article:
+             newsSet) {
+
+            article.prepend(  "<p> Источник: </p>" + "<a href=\""+ newsSources.get(i).getLink() +"\">" + newsSources.get(i).getTitle() + " </a>");
+            i++;
+        }
+
+        webPage.setCode(document.body().html());
+
+        System.out.println(webPage.toString());
+        return webPage;
     }
 }

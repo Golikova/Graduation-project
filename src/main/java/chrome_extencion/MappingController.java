@@ -1,9 +1,9 @@
 package chrome_extencion;
 
 import org.json.JSONException;
-import org.springframework.http.HttpStatus;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.xml.sax.SAXException;
 
@@ -15,26 +15,29 @@ import java.util.ArrayList;
 public class MappingController {
 
     @RequestMapping(value = "/greeting", method = RequestMethod.POST,  consumes= MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<WebPage> getPage(@RequestBody WebPage webPage) throws IOException, SAXException, ParserConfigurationException, JSONException {
+    public String getPage(@RequestBody WebPage webPage) throws IOException, SAXException, ParserConfigurationException, JSONException {
 
-        FileWriterCustom webPageWriter = new FileWriterCustom(webPage.getCode());
-        webPageWriter.writeFileOutputStream("pagecode.html");
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("conf.xml");
 
-        System.out.println("Got request!");
+        Parser parser = (Parser) applicationContext.getBean("sourceWebSite");
 
-        GoogleNewsParser googleParser = new GoogleNewsParser();
-        googleParser.getArticles(webPage);
-        ArrayList<String> newsTitles = googleParser.getNewsTitles();
+        parser.getArticles(webPage);
+        ArrayList<String> newsTitles = parser.getNewsTitles();
+        ArrayList<Source> newsSources = new ArrayList<>();
 
-        //Searcher.getSource(newsTitles.get(0));
+        Searcher searcher = (Searcher) applicationContext.getBean("searcher");
+        int i = 0;
 
-        WebPage nullPage = new WebPage();
-        nullPage.setCode("");
+        for (String newsTitle:
+             newsTitles) {
+            Source source = searcher.getSource(newsTitles.get(i));
+            newsSources.add(source);
+            System.out.println(source.toString());
+            i++;
+        }
 
-        return new ResponseEntity<WebPage>(nullPage, HttpStatus.OK);
+        webPage = parser.appendIntoHtml(newsSources, webPage);
 
+        return webPage.getCode();
     }
-
-
-
 }
